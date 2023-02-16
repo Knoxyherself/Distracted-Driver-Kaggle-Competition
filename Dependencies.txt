@@ -1,0 +1,27 @@
+Dependencies
+
+import os
+import numpy as np #linear algebra
+import pandas as pd #data processing
+import matplotlib.pyplot as plt
+import seaborn as sns
+import keras
+from sklearn.metrics import confusion_matrix
+from sklearn.datasets import load_files
+from sklearn.metrics import accuracy_score,precision_score,recall_score,f1_score
+from sklearn.model_selection import train_test_split
+from tensorflow.keras.utils import to_categorical
+from keras.utils import np_utils
+from keras.layers import Conv2D, MaxPooling2D, GlobalAveragePooling2D
+from keras.models import load_model
+from keras.utils import np_utils
+from keras.preprocessing import image 
+from keras.layers import Dropout, Flatten, Dense
+from keras.models import Sequential
+from keras.utils.vis_utils import plot_model
+from keras.callbacks import ModelCheckpoint
+from keras.preprocessing import image     
+from tqdm import tqdm
+import shutil
+import matplotlib.pyplot as plt
+%matplotlib inline
